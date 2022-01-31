@@ -1,0 +1,52 @@
+@import "null.css";
+
+* {
+	color: #331203;
+}
+h1 {
+	color: #e02277;
+}
+.description {
+	color: #000000;
+}
+span {
+	color: #e00e22;
+}
+.description span {
+	color: #ffd700;
+}
+p {
+	color: #294ad1;
+}
+h2 {
+	color: #ff69b4;
+}
+.tip + p {
+	color: #4b0082;
+}
+.useful > p {
+	color: #7cfc00;
+}
+h2 ~ h3 {
+	color: #2f944b;
+}
+#link {
+	color: #ff9100;
+}
+.list,
+.btw {
+	color: #800000;
+}
+.description [class*="-name"] {
+	color: #808000;
+}
+h2.green.tip-2 {
+	color: #008000;
+}
+.list li,
+.list li > ul li {
+	color: #806e0e;
+}
+.item > h2 + p {
+	color: #808080;
+}
